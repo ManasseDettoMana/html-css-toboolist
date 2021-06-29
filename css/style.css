@@ -28,7 +28,7 @@ body{
 
 #main-container{
     width: 1000px;
-    height: 600px;
+    height: 800px;
     background-color: white;
     margin: 50px 250px;
     border-radius: 5px;
@@ -49,6 +49,10 @@ body{
     margin: 20px 3px 10px 50px;
 }
 
+.margined-cross-check{
+    margin: 10px 3px 0px 50px;
+}
+
 #blu-task-button{
     background-color: rgb(74, 182, 250);
     color: white;
@@ -63,11 +67,14 @@ body{
 .triangle{
     font-size: 30px;
 }
-
+.main-bottom h2{
+    margin-top: 20px;
+}
 .main-bottom h2, .main-bottom h3{
     color: black;
     font-family: 'Roboto', sans-serif;
     display: inline-block;
+   
     
 }
 
@@ -112,9 +119,18 @@ body{
 }
 
 .recruiting{
-    background-color: rgb(94, 158, 94);    
+    background-color: rgb(94, 158, 134);    
 }
 
 .mobile{
     background-color: rgb(230, 162, 74);    
+}
+
+.website{
+
+    background-color:rgb(243, 159, 173);
+}
+
+.sales{
+    background-color: rgb(41, 160, 41);
 }
