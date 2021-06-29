@@ -22,6 +22,78 @@ header h1{
     margin: 5px 5px 5px 10px;
 }
 
-main{
+body{
     background-color: rgb(223, 223, 223);
+}
+
+#main-container{
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    margin: 50px 250px;
+    border-radius: 5px;
+}
+
+#main-top{
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.task{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+.margined-item{
+    margin: 10px 3px 10px 50px;
+}
+
+#blu-task-button{
+    background-color: rgb(74, 182, 250);
+    color: white;
+    border: 1px solid rgb(74, 182, 250);
+}
+
+#add-section-button{
+    color: rgb(223, 223, 223);
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.triangle{
+    font-size: 30px;
+}
+
+.main-bottom h2, .main-bottom h3{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+}
+
+.circle span{
+    vertical-align: middle;
+}
+.green{
+    border: 1px solid green;
+    color: green;
+}
+
+.marker{
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.editorial{
+    background-color: rgb(74, 182, 250);
 }
