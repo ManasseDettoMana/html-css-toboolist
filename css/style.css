@@ -60,11 +60,16 @@ li{
     
 }
 
-.paddind-side{
+.padding-side{
     padding: 0 50px;
 }
 
-
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px; 
+    border: none; 
+}
 .btn-blue{
     background-color: rgb(74, 182, 250);
     color: white;
@@ -73,7 +78,8 @@ li{
 
 .btn-white{
     background-color: white;
-    border: 1px solid background-color: rgb(223, 223, 223);
+    border: 1px solid white;
+    background-color: rgb(223, 223, 223);
 }
 
 
