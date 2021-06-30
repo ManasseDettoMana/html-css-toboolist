@@ -12,159 +12,62 @@
 </head>
 <body>
     
-
-    <!-- HO SBAGLIATO TUTTO, HO PROVATO A RIFARLO MA NON RIESCO, DEVO STACCARE LO FINISCO DOMANI POMERIGGIO -->
-    <!-- HO SBAGLIATO TUTTO, HO PROVATO A RIFARLO MA NON RIESCO, DEVO STACCARE LO FINISCO DOMANI POMERIGGIO -->
-    <!-- HO SBAGLIATO TUTTO, HO PROVATO A RIFARLO MA NON RIESCO, DEVO STACCARE LO FINISCO DOMANI POMERIGGIO -->
-    <!-- HO SBAGLIATO TUTTO, HO PROVATO A RIFARLO MA NON RIESCO, DEVO STACCARE LO FINISCO DOMANI POMERIGGIO -->
-    <!-- HO SBAGLIATO TUTTO, HO PROVATO A RIFARLO MA NON RIESCO, DEVO STACCARE LO FINISCO DOMANI POMERIGGIO -->
-    <!-- HO SBAGLIATO TUTTO, HO PROVATO A RIFARLO MA NON RIESCO, DEVO STACCARE LO FINISCO DOMANI POMERIGGIO -->
-    <!-- HO SBAGLIATO TUTTO, HO PROVATO A RIFARLO MA NON RIESCO, DEVO STACCARE LO FINISCO DOMANI POMERIGGIO -->
-
-
-
+    <!-- HEADER /LOGO-TITOLO -->
     <header>
         <img src="img/Logo.png" alt="logo Boolean" id="main-logo">
-        <h1>Toboolist</h1>
+        <span id="title">Toboolist</span>
     </header>
 
+
+    <!-- MAIN -->
     <main>
         
         <div id="main-container">
+
+            <!-- BUTTON SECTION  -->
             <section id="main-top">
-                <div class="task margined-item" id="blu-task-button">
-                    <span>Add Task</span>
+                <div class="task padding-side">
+                    <button type="button" class="btn btn-blue">Add Task</button>
+                    <button type="button" class="btn btn-white">Add Section</button>
                 </div>
-                <div class="task " id="add-section-button">
-                    <span>Add Section</span>
-                </div>
+                
             </section>
 
-            <section class="main-bottom ">
-                <!-- SEZIONE TASK -->
-                <section id="task">
-                    <!-- DIV CHE MI SERVE PER IL DISPLAY BLOCK -->
+            <!-- TASK  -->
+            <section class="main-bottom padding-side ">
 
-                    <div class="margined-cross-check">
-                        <!-- TRIANGOLO TENDINA -->
-                        <span class="triangle"> &dtrif;</span>
-                        <h2>New Task</h2>
-                    </div>
-    
-                    <div class="circle green margined-cross-check">
-                        <span> &check; </span>
-                    </div>
-    
-                    <h3>Quarterly Newsletter</h3>
-                    <div class="marker editorial">Editorial</div>
+               <!-- LISTE NON ORDINATE CON SOTTOLISTE -->
+                <ul>
+                    <li>
+                        <h3>&dtrif; New Task</h3>
+                        <ul class="subtasks">
+                            <li><span class="circle check">&check;</span>Quarterly Newsletter<span class="marker tag-blue">Editorial</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&dtrif; Today</h3>
+                        <ul class="subtasks">
+                            <li><span class="circle check">&check;</span>Recruiting blog post <span class="marker tag-blue">Editorial</span></li>
+                            <li><span class="circle check">&check;</span>Mobile app launch<span class="marker tag-purple">Q1 Goals</span></li>
+                            <li><span class="circle uncheck">&cross;</span>Interview John H.<span class="marker tag-green">Recruiting</span></li>
+                            <li><span class="circle check">&check;</span>Summit update to mobile storefronts<span class="marker tag-orange">Mobile</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&dtrif; Upcoming</h3>
+                        <ul class="subtasks">
+                            <li><span class="circle uncheck">&cross;</span>Schedule meeting with Alex</li>
+                            <li><span class="circle check">&check;</span>Homepage refresh<span class="marker tag-pink">Website</span></li>
+                            <li><span class="circle check">&check;</span>Onboard new Sales team members<span class="marker tag-lime">Sales</span></li>
+                            <li><span class="circle check">&check;</span>Review editorial calendar<span class="marker tag-blue">Editorial</span></li>
+                        </ul>
+                    </li>
+                </ul>
 
-                </section>
-
-                <!-- TODAY -->
-                <section>
-                    <div class="margined-cross-check">
-                        <!-- TRIANGOLO TENDINA -->
-    
-                        <span class="triangle"> &dtrif;</span>
-                        <h2>Today</h2>
-                    </div>
-                    <div class="circle green margined-cross-check">
-                        <span> &check; </span>
-                    </div>
-    
-                    <h3>Recruiting blog post</h3>
-                    <div class="marker editorial">Editorial</div>
-
-                    <!-- ANDATA A CAPO -->
-                    <div></div>
-
-                    <div class="circle green margined-cross-check">
-                        <span> &check; </span>
-                    </div>
-    
-                    <h3>Mobile app launch</h3>
-                    <div class="marker goals">Q1 Goals</div>
-
-                    <!-- ANDATA A CAPO -->
-                    <div></div>
-
-                    <div class="circle red margined-cross-check">
-                        <span> &cross; </span>
-                    </div>
-                    <h3>Interview Jhon H.</h3>
-                    <div class="marker recruiting">Recruiting</div>
-
-                    <!-- ANDATA A CAPO -->
-                    <div></div>
-
-                    <div class="circle green margined-cross-check">
-                        <span> &check; </span>
-                    </div>
-                    <h3>Summit update to mobiile storefront</h3>
-                    <div class="marker mobile">mobile</div>
-
-                </section>
-
-                <!-- UPCOMING -->
-                <section>
-    
-                    <div class="margined-cross-check">
-                        <!-- TRIANGOLO TENDINA -->
-                        <span class="triangle"> &dtrif;</span>
-                        <h2>Upcoming</h2>
-                    </div>
-
-                        <div class="circle red margined-cross-check">
-                            <span> &cross; </span>
-                        </div>
-                        <h3>Schedule meeting with Alex</h3>
-                       
-                        
-                        <div></div>
-    
-                        <div class="circle green margined-item">
-                            <span> &check; </span>
-                        </div>
-        
-                        <h3>Homepage refresh</h3>
-                        <div class="marker website">Website</div>
-    
-                        
-                        <div></div>
-    
-                        <div class="circle green margined-item">
-                            <span> &check; </span>
-                        </div>
-        
-                        <h3>Onboard new Sales team members</h3>
-                        <div class="marker sales">Sales</div>
-                        
-                        <div></div>
-    
-                        <div class="circle green margined-item">
-                            <span> &check; </span>
-                        </div>
-        
-                        <h3>Review editorial calendar</h3>
-                        <div class="marker editorial">Editorial</div>
-    
-                </section>
             </section>
 
-
-
-
-        </div>
-
-
-
-
-    
+        </div> 
     </main>
-
-    <footer>
-
-    </footer>
 
 </body>
 </html>
